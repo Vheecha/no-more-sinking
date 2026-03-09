@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "no-more-sinking",
+	"version": "1.0.0",
+	"name": "No More Sinking",
+	"description": "Prevents you from falling into Powder Snow blocks. Just keep on exploring instead of fighting blocks!",
+	"authors": [
+		"jowi"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/no-more-sinking",
+		"sources": "https://github.com/Vheecha/no-more-sinking"
+	},
+	"license": "MIT",
+	"icon": "assets/no-more-sinking/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sinknomore.NoMoreSinking"
+		]
+	},
+	"mixins": [
+		"no-more-sinking.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
